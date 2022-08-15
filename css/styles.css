@@ -1,0 +1,128 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Montserrat-Bold";
+}
+
+
+
+p {
+    color: #8f8f8f;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Headings */
+.big-heading {
+    line-height: 1.5;
+    font-family: 'Montserrat-Black';
+    color: white;
+    size: 3.5rem;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: "Ubontu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Title */
+
+#title {
+    background-color: #386C7A;
+    color: #fff;
+}
+
+.title-text {
+    color: #fff;
+}
+
+.title-image {
+    transform: rotate(25deg);
+}
+
+/* features */
+
+#features {
+    background-color: #fff;
+    padding: 3% 15% 7%;
+
+}
+
+.feature-icon {
+    color: #72DAF7;
+    margin-bottom: 1.5rem;
+}
+
+.feature-icon:hover {
+    color: #386C7A;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+/* call to action */
+#cta {
+    background-color: #4C87BA;
+    padding: 3% 15% 7%;
+}
+
+.cta-text {
+    font-family: 'Montserrat-Black';
+    color: #fff;
+}
+
+.contact:hover {
+    color: #fff;
+}
+
+/* footer */
+
+#footer {
+    padding: 3% 15% 7%;
+}
+
+.footer-text {
+    margin-top: 1.5rem;
+}
+
+.footer-box {
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1020px) {
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
